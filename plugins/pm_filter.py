@@ -495,8 +495,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         await query.answer()
     elif query.data == "start":
         buttons = [[
-        InlineKeyboardButton('◽ Channel', url='https://t.me/ss_linkz'),
-        InlineKeyboardButton('Group ◽', url ='https://t.me/Netflix_Movies_Group')
+        InlineKeyboardButton('◽ Channel', url='https://t.me/at3_movies'),
+        InlineKeyboardButton('Group ◽', url ='https://t.me/at3movies')
     ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.delete()
